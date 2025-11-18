@@ -6,6 +6,8 @@
 
 **Comprehensive HR performance reporting solution with Power BI dashboards for employee analytics**
 
+> **Note**: This repository contains the **technical implementation** (Power BI dashboards, CSV data files, and analysis scripts). For the **complete portfolio** including documentation, video walkthroughs, and project overview, see [hr-performance-portfolio](https://github.com/MatthewPaver/hr-performance-portfolio).
+
 </div>
 
 ---
@@ -24,7 +26,23 @@
 
 ## 🎯 Overview
 
-This project provides comprehensive HR performance reports for a global utility products company concerned with low performance attributed to high volumes of absences and poor service delivery, leading to an increase in customer complaints. The project leverages Excel 2021 for data analysis and Power BI for dashboard visualisations, focusing on employee performance, sick leave, and sales performance metrics.
+This repository contains the **technical implementation** of HR performance reporting dashboards, including Power BI files, data sources, and analysis outputs. This project provides comprehensive HR performance reports for a global utility products company concerned with low performance attributed to high volumes of absences and poor service delivery, leading to an increase in customer complaints.
+
+### 📌 Repository Distinction
+
+**This Repository (`hr-performance-dashboards`):**
+- ✅ Power BI dashboard files (`.pbix`)
+- ✅ CSV data files and datasets
+- ✅ Dashboard images and screenshots
+- ✅ Technical implementation files
+
+**Portfolio Repository (`hr-performance-portfolio`):**
+- 📄 Complete project documentation PDFs
+- 🎥 Video walkthroughs and tutorials
+- 📊 Portfolio overview and presentation materials
+- 📝 Comprehensive project documentation
+
+The project leverages Excel 2021 for data analysis and Power BI for dashboard visualisations, focusing on employee performance, sick leave, and sales performance metrics.
 
 ### Problem Statement
 
