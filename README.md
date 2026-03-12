@@ -88,4 +88,4 @@ Top performers, year-to-date vs previous year comparison, and regional analysis.
 ## Related
 
 - [hr-performance-portfolio](https://github.com/MatthewPaver/hr-performance-portfolio) — Summative portfolio PDF and video walkthrough
-- [Portfolio](https://github.com/MatthewPaver/portfolio) — All projects
+- [Project Index](https://github.com/MatthewPaver/MatthewPaver/blob/main/Projects.md) — Curated profile project index
