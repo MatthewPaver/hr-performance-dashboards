@@ -10,6 +10,20 @@
 
 ---
 
+## Status
+
+`Dashboard portfolio`
+
+This repository is the technical dashboard package: Power BI file, static exports, prepared CSVs, and dashboard previews. It is intended to show practical analytics delivery rather than application code.
+
+## Portfolio Signal
+
+- End-to-end dashboard packaging with source datasets, `.pbix`, PDF export, and documentation
+- Clear business framing around absence, performance, and sales signals
+- Screenshots available directly in the README for fast review
+
+---
+
 ## Problem Statement
 
 A global utility products company was experiencing high volumes of employee absences, poor service delivery, and increasing customer complaints. Management needed data-driven insights into HR performance to identify root causes and take action.
