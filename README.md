@@ -22,6 +22,13 @@ This repository is the technical dashboard package: Power BI file, static export
 - Clear business framing around absence, performance, and sales signals
 - Screenshots available directly in the README for fast review
 
+## Reviewer Notes
+
+- **Reproducible path:** open the `.pbix` in Power BI Desktop or review the static PDF export.
+- **Delivery signal:** the repo includes dashboard assets, source CSVs, prepared slices, screenshots, and written methodology.
+- **Business signal:** the analysis is framed around absence, service pressure, and sales performance rather than visuals alone.
+- **Known limit:** this is a dashboard delivery package, so verification is through the PBIX/PDF/data artefacts rather than automated tests.
+
 ---
 
 ## Problem Statement
