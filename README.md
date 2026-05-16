@@ -16,6 +16,18 @@
 
 This repository is the technical dashboard package: Power BI file, static exports, prepared CSVs, and dashboard previews. It is intended to show practical analytics delivery rather than application code.
 
+## Reviewer Pack
+
+| Area | Details |
+|:---|:---|
+| What it solves | Turns HR, absence, and sales data into a dashboard package for performance review and stakeholder handoff. |
+| Screenshot | [Portfolio Store preview](https://matthewpaver.github.io/MatthewPaver/store/preview.html?app=hr) and [Dashboard Previews](#dashboard-previews) below |
+| Run locally | Open `HR Performance Reporting Dashboards.pbix` in Power BI Desktop. |
+| Tests | No automated tests; review is through the PBIX, PDF export, source CSVs, and documentation artefacts. |
+| Demo data | Included CSV files: current employees, high/low sick leave, and top sales performers. |
+| Architecture | CSV data -> Power BI model and DAX measures -> dashboard pages -> PDF/documentation handoff |
+| Limitations | Dashboard delivery package rather than a code application; Power BI Desktop is required for interactive review. |
+
 ## Portfolio Signal
 
 - End-to-end dashboard packaging with source datasets, `.pbix`, PDF export, and documentation
