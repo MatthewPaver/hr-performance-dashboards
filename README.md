@@ -8,6 +8,8 @@
 
 **For the full project portfolio** (methodology, documentation, video walkthrough): see [hr-performance-portfolio](https://github.com/MatthewPaver/hr-performance-portfolio).
 
+![HR dashboard summary](docs/assets/hr-summary.png)
+
 ---
 
 ## Status
@@ -27,6 +29,8 @@ This repository is the technical dashboard package: Power BI file, static export
 | Demo data | Included CSV files: current employees, high/low sick leave, and top sales performers. |
 | Architecture | CSV data -> Power BI model and DAX measures -> dashboard pages -> PDF/documentation handoff |
 | Limitations | Dashboard delivery package rather than a code application; Power BI Desktop is required for interactive review. |
+
+![HR dashboard architecture](docs/assets/architecture.svg)
 
 ## Portfolio Signal
 
