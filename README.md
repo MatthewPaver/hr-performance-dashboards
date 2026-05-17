@@ -16,7 +16,7 @@
 
 `Dashboard portfolio`
 
-This repository is the technical dashboard package: Power BI file, static exports, prepared CSVs, and dashboard previews. It is intended to show practical analytics delivery rather than application code.
+This repository is the technical dashboard package: Power BI file, static exports, and dashboard previews. It is intended to show practical analytics delivery rather than application code. The prepared data lives inside the PBIX model; the raw CSV source data is not redistributed here.
 
 ## Reviewer Pack
 
@@ -25,23 +25,23 @@ This repository is the technical dashboard package: Power BI file, static export
 | What it solves | Turns HR, absence, and sales data into a dashboard package for performance review and stakeholder handoff. |
 | Screenshot | [Portfolio Store preview](https://matthewpaver.github.io/MatthewPaver/store/preview.html?app=hr) and [Dashboard Previews](#dashboard-previews) below |
 | Run locally | Open `HR Performance Reporting Dashboards.pbix` in Power BI Desktop. |
-| Tests | No automated tests; review is through the PBIX, PDF export, source CSVs, and documentation artefacts. |
-| Demo data | Included CSV files: current employees, high/low sick leave, and top sales performers. |
-| Architecture | CSV data -> Power BI model and DAX measures -> dashboard pages -> PDF/documentation handoff |
+| Tests | No automated tests; review is through the PBIX, PDF export, and documentation artefacts. |
+| Demo data | Prepared data is embedded inside the PBIX model; raw CSVs are not redistributed. |
+| Architecture | Source data -> Power BI model and DAX measures -> dashboard pages -> PDF/documentation handoff |
 | Limitations | Dashboard delivery package rather than a code application; Power BI Desktop is required for interactive review. |
 
 ![HR dashboard architecture](docs/assets/architecture.svg)
 
 ## Portfolio Signal
 
-- End-to-end dashboard packaging with source datasets, `.pbix`, PDF export, and documentation
+- End-to-end dashboard packaging with `.pbix`, PDF export, and documentation
 - Clear business framing around absence, performance, and sales signals
 - Screenshots available directly in the README for fast review
 
 ## Reviewer Notes
 
 - **Reproducible path:** open the `.pbix` in Power BI Desktop or review the static PDF export.
-- **Delivery signal:** the repo includes dashboard assets, source CSVs, prepared slices, screenshots, and written methodology.
+- **Delivery signal:** the repo includes dashboard assets, prepared slices, screenshots, and written methodology.
 - **Business signal:** the analysis is framed around absence, service pressure, and sales performance rather than visuals alone.
 - **Known limit:** this is a dashboard delivery package, so verification is through the PBIX/PDF/data artefacts rather than automated tests.
 
@@ -75,10 +75,8 @@ Three interconnected Power BI dashboards that visualise employee decomposition, 
 | `HR Performance Reporting Dashboards.pbix` | Interactive Power BI dashboard (requires Power BI Desktop) |
 | `HR Performance Reporting Dashboards.pdf` | Static PDF export of all dashboard pages |
 | `Project A HR Performance Reporting Documentation.pdf` | Full project documentation — methodology, analysis, recommendations |
-| `Current Employees.csv` | Complete employee dataset |
-| `High Sick Leave.csv` | Employees with >37.5 hours/year sick leave |
-| `Low Sick Leave.csv` | Employees with <15 hours/year sick leave |
-| `TopSalesPerformers.csv` | Top sales performers by region |
+| `Dashboard Images/` | PNG previews of the three dashboard pages |
+| `docs/assets/` | Hero screenshot and architecture diagram |
 
 ---
 
@@ -106,9 +104,9 @@ Top performers, year-to-date vs previous year comparison, and regional analysis.
 
 ## Getting Started
 
-1. **Open the dashboard** — Load `HR Performance Reporting Dashboards.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
-2. **Explore the data** — Open the CSV files in Excel, Google Sheets, or pandas
-3. **Read the documentation** — Review the PDF for methodology and recommendations
+1. **Open the dashboard** — Load `HR Performance Reporting Dashboards.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) to explore the interactive model and inspect the embedded data tables.
+2. **Skim the static export** — `HR Performance Reporting Dashboards.pdf` shows every page if you do not have Power BI Desktop.
+3. **Read the documentation** — `Project A HR Performance Reporting Documentation.pdf` covers methodology, findings, and recommendations.
 
 ---
 
