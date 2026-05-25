@@ -30,6 +30,20 @@ This repository is the technical dashboard package: Power BI file, static export
 | Architecture | Source data -> Power BI model and DAX measures -> dashboard pages -> PDF/documentation handoff |
 | Limitations | Dashboard delivery package rather than a code application; Power BI Desktop is required for interactive review. |
 
+## Practical Test
+
+Can HR, absence, and sales data be handed to a stakeholder as a review pack rather than a loose set of charts?
+
+The useful check is the full path:
+
+1. Inspect the source CSVs.
+2. Open the PBIX or PDF export.
+3. Review summary, absence, and sales views.
+4. Read the methodology and commentary.
+5. Use the package to discuss service pressure, absence patterns, and sales performance.
+
+That is the point of the repo: show dashboard delivery and handoff, not just a screenshot.
+
 ![HR dashboard architecture](docs/assets/architecture.svg)
 
 ## Portfolio Signal
