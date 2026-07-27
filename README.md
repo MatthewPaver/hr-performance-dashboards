@@ -4,9 +4,7 @@
 [![Excel](https://img.shields.io/badge/Excel_2021-217346?style=flat-square&logo=microsoftexcel&logoColor=white)](https://www.microsoft.com/excel)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> Interactive Power BI dashboards analysing employee performance, sick leave patterns, and sales metrics for a global utility products company.
-
-**For the full project portfolio** (methodology, documentation, video walkthrough): see [hr-performance-portfolio](https://github.com/MatthewPaver/hr-performance-portfolio).
+> Complete Power BI case study analysing employee performance, sick leave patterns, and sales metrics for a global utility products company.
 
 ![HR dashboard summary](docs/assets/hr-summary.png)
 
@@ -23,7 +21,7 @@ This repository is the technical dashboard package: Power BI file, static export
 | Area | Details |
 |:---|:---|
 | What it solves | Turns HR, absence, and sales data into a dashboard package for performance review and stakeholder handoff. |
-| Screenshot | [Portfolio Store preview](https://matthewpaver.github.io/MatthewPaver/store/preview.html?app=hr) and [Dashboard Previews](#dashboard-previews) below |
+| Screenshot | [Dashboard Previews](#dashboard-previews) below |
 | Run locally | Open `HR Performance Reporting Dashboards.pbix` in Power BI Desktop. |
 | Tests | No automated tests; review is through the PBIX, PDF export, and documentation artefacts. |
 | Demo data | Prepared data is embedded inside the PBIX model; raw CSVs are not redistributed. |
@@ -121,6 +119,7 @@ Top performers, year-to-date vs previous year comparison, and regional analysis.
 1. **Open the dashboard** — Load `HR Performance Reporting Dashboards.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) to explore the interactive model and inspect the embedded data tables.
 2. **Skim the static export** — `HR Performance Reporting Dashboards.pdf` shows every page if you do not have Power BI Desktop.
 3. **Read the documentation** — `Project A HR Performance Reporting Documentation.pdf` covers methodology, findings, and recommendations.
+4. **Watch the walkthrough** — the [video walkthrough](https://youtu.be/KDerP99pWNs) explains the dashboard and analysis without requiring Power BI.
 
 ---
 
@@ -134,7 +133,12 @@ Top performers, year-to-date vs previous year comparison, and regional analysis.
 
 ---
 
-## Related
+## Project History
 
-- [hr-performance-portfolio](https://github.com/MatthewPaver/hr-performance-portfolio) — Summative portfolio PDF and video walkthrough
-- [Project Index](https://github.com/MatthewPaver/MatthewPaver/blob/main/Projects.md) — Curated profile project index
+The earlier stakeholder-only packaging is retained in the archived
+[`hr-performance-portfolio`](https://github.com/MatthewPaver/hr-performance-portfolio)
+repository for provenance. This repository is the maintained, canonical case study
+and contains the stronger technical artefacts, methodology, exports, and previews.
+
+See the [curated project index](https://github.com/MatthewPaver/MatthewPaver/blob/main/Projects.md)
+for the wider portfolio.
