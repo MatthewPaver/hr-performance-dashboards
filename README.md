@@ -23,8 +23,8 @@ This repository is the technical dashboard package: Power BI file, static export
 | What it solves | Turns HR, absence, and sales data into a dashboard package for performance review and stakeholder handoff. |
 | Screenshot | [Dashboard Previews](#dashboard-previews) below |
 | Run locally | Open `HR Performance Reporting Dashboards.pbix` in Power BI Desktop. |
-| Tests | No automated tests; review is through the PBIX, PDF export, and documentation artefacts. |
-| Demo data | Prepared data is embedded inside the PBIX model; raw CSVs are not redistributed. |
+| Tests | A schema test validates the 50-row synthetic sample; dashboard review remains through the PBIX, PDF export, and documentation artefacts. |
+| Demo data | Prepared source data is embedded inside the PBIX model; a separate 50-row synthetic schema sample is included for inspection. |
 | Architecture | Source data -> Power BI model and DAX measures -> dashboard pages -> PDF/documentation handoff |
 | Limitations | Dashboard delivery package rather than a code application; Power BI Desktop is required for interactive review. |
 
@@ -34,7 +34,7 @@ Can HR, absence, and sales data be handed to a stakeholder as a review pack rath
 
 The useful check is the full path:
 
-1. Inspect the source CSVs.
+1. Inspect `sample-data/hr-performance-synthetic.csv` to understand the public schema.
 2. Open the PBIX or PDF export.
 3. Review summary, absence, and sales views.
 4. Read the methodology and commentary.
@@ -55,7 +55,8 @@ That is the point of the repo: show dashboard delivery and handoff, not just a s
 - **Reproducible path:** open the `.pbix` in Power BI Desktop or review the static PDF export.
 - **Delivery signal:** the repo includes dashboard assets, prepared slices, screenshots, and written methodology.
 - **Business signal:** the analysis is framed around absence, service pressure, and sales performance rather than visuals alone.
-- **Known limit:** this is a dashboard delivery package, so verification is through the PBIX/PDF/data artefacts rather than automated tests.
+- **Known limit:** automated checks validate only the synthetic public schema; dashboard measures still require review through the PBIX, PDF and documentation artefacts.
+- **Data boundary:** the sample CSV is entirely synthetic and illustrates shape only; it cannot reproduce the embedded dashboard figures.
 
 ---
 
@@ -89,6 +90,7 @@ Three interconnected Power BI dashboards that visualise employee decomposition, 
 | `Project A HR Performance Reporting Documentation.pdf` | Full project documentation — methodology, analysis, recommendations |
 | `Dashboard Images/` | PNG previews of the three dashboard pages |
 | `docs/assets/` | Hero screenshot and architecture diagram |
+| `sample-data/` | 50 synthetic rows plus a public field dictionary |
 
 ---
 
@@ -135,10 +137,9 @@ Top performers, year-to-date vs previous year comparison, and regional analysis.
 
 ## Project History
 
-The earlier stakeholder-only packaging is retained in the archived
-[`hr-performance-portfolio`](https://github.com/MatthewPaver/hr-performance-portfolio)
-repository for provenance. This repository is the maintained, canonical case study
-and contains the stronger technical artefacts, methodology, exports, and previews.
+An earlier stakeholder-only package has been retired. This repository is the
+maintained, canonical case study and contains the technical artefacts,
+methodology, exports, previews, and a clearly labelled synthetic schema sample.
 
 See the [curated project index](https://github.com/MatthewPaver/MatthewPaver/blob/main/Projects.md)
 for the wider portfolio.

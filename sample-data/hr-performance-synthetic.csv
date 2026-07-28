@@ -1,0 +1,51 @@
+employee_id,department,region,age_band,annual_sick_hours,current_year_sales,prior_year_sales,performance_band
+EMP-001,Production,South,25-34,4.0,64200,60800,High
+EMP-002,Production,North,35-44,12.5,58100,56600,Meets
+EMP-003,Sales,London,25-34,0.0,91800,84200,High
+EMP-004,Customer Service,Midlands,45-54,38.0,47200,48900,Review
+EMP-005,Production,South,18-24,8.0,39500,37200,Meets
+EMP-006,Finance,London,35-44,6.5,0,0,High
+EMP-007,Production,North,45-54,16.0,52200,51000,Meets
+EMP-008,Sales,South,35-44,3.5,104500,98200,High
+EMP-009,Customer Service,North,25-34,24.0,45100,43800,Meets
+EMP-010,Production,Midlands,55-64,42.0,48800,50100,Review
+EMP-011,Human Resources,London,35-44,5.0,0,0,Meets
+EMP-012,Production,South,35-44,9.5,55700,53100,High
+EMP-013,Sales,North,45-54,14.0,87700,90300,Meets
+EMP-014,Production,London,25-34,2.0,61200,57900,High
+EMP-015,Customer Service,South,18-24,18.5,40800,39200,Meets
+EMP-016,Production,Midlands,35-44,7.0,54600,52800,Meets
+EMP-017,Finance,North,45-54,11.0,0,0,Meets
+EMP-018,Sales,London,25-34,1.5,112400,101500,High
+EMP-019,Production,North,25-34,28.0,46800,48100,Review
+EMP-020,Customer Service,London,35-44,6.0,50200,47700,High
+EMP-021,Production,South,45-54,10.0,53400,51900,Meets
+EMP-022,Human Resources,Midlands,25-34,4.5,0,0,High
+EMP-023,Sales,Midlands,35-44,19.0,79500,82300,Meets
+EMP-024,Production,London,18-24,0.0,42100,39800,High
+EMP-025,Customer Service,North,55-64,36.0,43700,44500,Review
+EMP-026,Production,Midlands,25-34,13.5,51800,49600,Meets
+EMP-027,Finance,South,35-44,7.5,0,0,Meets
+EMP-028,Sales,South,45-54,5.0,96500,91400,High
+EMP-029,Production,North,35-44,21.0,49200,48700,Meets
+EMP-030,Customer Service,London,25-34,9.0,48500,46200,Meets
+EMP-031,Production,South,55-64,40.0,45900,47600,Review
+EMP-032,Human Resources,North,45-54,8.0,0,0,Meets
+EMP-033,Sales,London,35-44,2.5,108700,99600,High
+EMP-034,Production,Midlands,45-54,15.0,50700,49300,Meets
+EMP-035,Customer Service,South,35-44,12.0,46300,45100,Meets
+EMP-036,Production,London,25-34,3.0,59700,55800,High
+EMP-037,Finance,Midlands,25-34,5.5,0,0,High
+EMP-038,Sales,North,18-24,7.0,73100,68400,High
+EMP-039,Production,South,35-44,17.5,51400,50200,Meets
+EMP-040,Customer Service,Midlands,45-54,31.0,42900,43800,Review
+EMP-041,Production,North,25-34,6.0,56800,54200,High
+EMP-042,Human Resources,South,35-44,10.5,0,0,Meets
+EMP-043,Sales,London,45-54,4.0,102300,97300,High
+EMP-044,Production,Midlands,18-24,11.0,40300,38900,Meets
+EMP-045,Customer Service,North,25-34,20.0,44600,43100,Meets
+EMP-046,Production,London,35-44,2.0,62300,58700,High
+EMP-047,Finance,South,55-64,14.5,0,0,Meets
+EMP-048,Sales,Midlands,25-34,8.5,84600,80100,High
+EMP-049,Production,North,45-54,39.0,47100,48900,Review
+EMP-050,Customer Service,South,35-44,5.0,49100,46900,High
