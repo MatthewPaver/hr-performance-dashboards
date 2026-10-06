@@ -1,0 +1,42 @@
+{
+  "report_as_of_date": "2014-06-30",
+  "current_employees": 290,
+  "balance_bands": {
+    "Below 15 available hours": 0,
+    "15 to 37.5 available hours": 96,
+    "Above 37.5 available hours": 194
+  },
+  "salespeople": 17,
+  "sales_ytd_total": "36277591.9034",
+  "sales_last_year_total": "23685963.6244",
+  "boundary": "Fictional sample balances, not absence taken. Sales snapshot periods are not established; no growth or causal claim.",
+  "source_commit": "fd84be9ed763069e4fdaf88f5983942c7d3a2821",
+  "sources": {
+    "Employee": {
+      "url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/fd84be9ed763069e4fdaf88f5983942c7d3a2821/samples/databases/adventure-works/oltp-install-script/Employee.csv",
+      "sha256": "111b1ba4a51bf982c7f8841cdb14c14374fc4552a22e7ba067ef728e7ae72258",
+      "rows": 290
+    },
+    "EmployeeDepartmentHistory": {
+      "url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/fd84be9ed763069e4fdaf88f5983942c7d3a2821/samples/databases/adventure-works/oltp-install-script/EmployeeDepartmentHistory.csv",
+      "sha256": "6b090ae6cd83bd6673cd2ecc6a1db80f869e6e955d57ba4dfbe6c27c482f6a53",
+      "rows": 296
+    },
+    "Department": {
+      "url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/fd84be9ed763069e4fdaf88f5983942c7d3a2821/samples/databases/adventure-works/oltp-install-script/Department.csv",
+      "sha256": "ea23f5c516f7d843a2d4abe583346a9c8cda9670179ecfb63707641189d61934",
+      "rows": 16
+    },
+    "SalesPerson": {
+      "url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/fd84be9ed763069e4fdaf88f5983942c7d3a2821/samples/databases/adventure-works/oltp-install-script/SalesPerson.csv",
+      "sha256": "92ed21c0e22bf0060a746d53c1f8f0ed68a1ece4b0d5b9c60dbc233d52499206",
+      "rows": 17
+    },
+    "SalesTerritory": {
+      "url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/fd84be9ed763069e4fdaf88f5983942c7d3a2821/samples/databases/adventure-works/oltp-install-script/SalesTerritory.csv",
+      "sha256": "cb087c101765605e848635f6127123b1a0814397635ce5faebe52f516ccfc861",
+      "rows": 10
+    }
+  },
+  "licence": "Microsoft SQL Server samples MIT; see https://github.com/microsoft/sql-server-samples/blob/master/license.txt"
+}

@@ -1,0 +1,291 @@
+BusinessEntityID,Department,AgeYears,TenureYears,AvailableSickLeaveHours,AvailableVacationHours,SickLeaveBalanceBand,ReportAsOfDate
+1,Executive,45,5,69,99,Above 37.5 available hours,2014-06-30
+2,Engineering,42,6,20,1,15 to 37.5 available hours,2014-06-30
+3,Engineering,39,6,21,2,15 to 37.5 available hours,2014-06-30
+4,Tool Design,39,6,80,48,Above 37.5 available hours,2014-06-30
+5,Engineering,61,6,22,5,15 to 37.5 available hours,2014-06-30
+6,Engineering,55,6,23,6,15 to 37.5 available hours,2014-06-30
+7,Research and Development,27,5,50,61,Above 37.5 available hours,2014-06-30
+8,Research and Development,28,5,51,62,Above 37.5 available hours,2014-06-30
+9,Research and Development,35,5,51,63,Above 37.5 available hours,2014-06-30
+10,Research and Development,29,5,64,16,Above 37.5 available hours,2014-06-30
+11,Tool Design,36,3,23,7,15 to 37.5 available hours,2014-06-30
+12,Tool Design,54,6,24,9,15 to 37.5 available hours,2014-06-30
+13,Tool Design,25,3,24,8,15 to 37.5 available hours,2014-06-30
+14,Engineering,35,3,21,3,15 to 37.5 available hours,2014-06-30
+15,Engineering,53,3,22,4,15 to 37.5 available hours,2014-06-30
+16,Marketing,39,6,40,40,Above 37.5 available hours,2014-06-30
+17,Marketing,27,7,41,42,Above 37.5 available hours,2014-06-30
+18,Marketing,36,3,44,48,Above 37.5 available hours,2014-06-30
+19,Marketing,36,3,41,43,Above 37.5 available hours,2014-06-30
+20,Marketing,39,3,40,41,Above 37.5 available hours,2014-06-30
+21,Marketing,28,5,42,44,Above 37.5 available hours,2014-06-30
+22,Marketing,27,5,42,45,Above 37.5 available hours,2014-06-30
+23,Marketing,51,5,43,46,Above 37.5 available hours,2014-06-30
+24,Marketing,35,5,43,47,Above 37.5 available hours,2014-06-30
+25,Production,31,5,52,64,Above 37.5 available hours,2014-06-30
+26,Production Control,31,5,41,43,Above 37.5 available hours,2014-06-30
+27,Production,57,6,60,80,Above 37.5 available hours,2014-06-30
+28,Production,26,8,30,21,15 to 37.5 available hours,2014-06-30
+29,Production,34,5,29,19,15 to 37.5 available hours,2014-06-30
+30,Production,24,5,27,14,15 to 37.5 available hours,2014-06-30
+31,Production,28,5,29,18,15 to 37.5 available hours,2014-06-30
+32,Production,36,5,31,23,15 to 37.5 available hours,2014-06-30
+33,Production,37,5,28,17,15 to 37.5 available hours,2014-06-30
+34,Production,27,5,27,15,15 to 37.5 available hours,2014-06-30
+35,Production,37,5,31,22,15 to 37.5 available hours,2014-06-30
+36,Production,29,5,30,20,15 to 37.5 available hours,2014-06-30
+37,Production,27,5,28,16,15 to 37.5 available hours,2014-06-30
+38,Production,47,4,32,24,15 to 37.5 available hours,2014-06-30
+39,Production,42,4,32,25,15 to 37.5 available hours,2014-06-30
+40,Production,58,6,61,82,Above 37.5 available hours,2014-06-30
+41,Production,40,5,37,35,15 to 37.5 available hours,2014-06-30
+42,Production,29,5,39,39,Above 37.5 available hours,2014-06-30
+43,Production,25,5,37,34,15 to 37.5 available hours,2014-06-30
+44,Production,24,5,39,38,Above 37.5 available hours,2014-06-30
+45,Production,28,5,38,37,Above 37.5 available hours,2014-06-30
+46,Production,38,5,38,36,Above 37.5 available hours,2014-06-30
+47,Production,25,5,52,65,Above 37.5 available hours,2014-06-30
+48,Production,58,6,61,83,Above 37.5 available hours,2014-06-30
+49,Production,58,6,64,88,Above 37.5 available hours,2014-06-30
+50,Production,57,6,62,84,Above 37.5 available hours,2014-06-30
+51,Production,57,6,62,85,Above 37.5 available hours,2014-06-30
+52,Production,58,6,63,86,Above 37.5 available hours,2014-06-30
+53,Production,58,6,63,87,Above 37.5 available hours,2014-06-30
+54,Production,27,4,64,89,Above 37.5 available hours,2014-06-30
+55,Production,58,6,59,79,Above 37.5 available hours,2014-06-30
+56,Production,25,5,24,9,15 to 37.5 available hours,2014-06-30
+57,Production,42,5,25,10,15 to 37.5 available hours,2014-06-30
+58,Production,28,5,25,11,15 to 37.5 available hours,2014-06-30
+59,Production,34,5,26,12,15 to 37.5 available hours,2014-06-30
+60,Production,37,5,26,13,15 to 37.5 available hours,2014-06-30
+61,Production,24,5,24,8,15 to 37.5 available hours,2014-06-30
+62,Production,57,6,60,81,Above 37.5 available hours,2014-06-30
+63,Production,59,4,35,30,15 to 37.5 available hours,2014-06-30
+64,Production,40,4,33,26,15 to 37.5 available hours,2014-06-30
+65,Production,44,4,34,29,15 to 37.5 available hours,2014-06-30
+66,Production,44,4,34,28,15 to 37.5 available hours,2014-06-30
+67,Production,38,5,36,32,15 to 37.5 available hours,2014-06-30
+68,Production,42,4,33,27,15 to 37.5 available hours,2014-06-30
+69,Production,23,5,35,31,15 to 37.5 available hours,2014-06-30
+70,Production,29,5,36,33,15 to 37.5 available hours,2014-06-30
+71,Production,25,5,55,70,Above 37.5 available hours,2014-06-30
+72,Production,37,5,40,41,Above 37.5 available hours,2014-06-30
+73,Production,30,5,41,42,Above 37.5 available hours,2014-06-30
+74,Production,24,5,41,43,Above 37.5 available hours,2014-06-30
+75,Production,32,5,42,44,Above 37.5 available hours,2014-06-30
+76,Production,25,5,42,45,Above 37.5 available hours,2014-06-30
+77,Production,31,5,43,46,Above 37.5 available hours,2014-06-30
+78,Production,26,5,56,72,Above 37.5 available hours,2014-06-30
+79,Production,47,4,50,60,Above 37.5 available hours,2014-06-30
+80,Production,43,4,52,65,Above 37.5 available hours,2014-06-30
+81,Production,43,4,52,64,Above 37.5 available hours,2014-06-30
+82,Production,40,4,51,62,Above 37.5 available hours,2014-06-30
+83,Production,40,4,50,61,Above 37.5 available hours,2014-06-30
+84,Production,62,4,53,66,Above 37.5 available hours,2014-06-30
+85,Production,43,4,51,63,Above 37.5 available hours,2014-06-30
+86,Production,42,5,49,59,Above 37.5 available hours,2014-06-30
+87,Production,30,5,53,67,Above 37.5 available hours,2014-06-30
+88,Production,47,4,69,99,Above 37.5 available hours,2014-06-30
+89,Production,27,4,68,96,Above 37.5 available hours,2014-06-30
+90,Production,27,4,68,97,Above 37.5 available hours,2014-06-30
+91,Production,27,4,67,95,Above 37.5 available hours,2014-06-30
+92,Production,27,4,69,98,Above 37.5 available hours,2014-06-30
+93,Production,34,5,59,78,Above 37.5 available hours,2014-06-30
+94,Production,41,5,23,6,15 to 37.5 available hours,2014-06-30
+95,Production,27,5,20,1,15 to 37.5 available hours,2014-06-30
+96,Production,24,5,22,5,15 to 37.5 available hours,2014-06-30
+97,Production,28,5,20,0,15 to 37.5 available hours,2014-06-30
+98,Production,36,5,22,4,15 to 37.5 available hours,2014-06-30
+99,Production,35,5,21,2,15 to 37.5 available hours,2014-06-30
+100,Production,41,5,23,7,15 to 37.5 available hours,2014-06-30
+101,Production,42,5,21,3,15 to 37.5 available hours,2014-06-30
+102,Production,30,5,53,66,Above 37.5 available hours,2014-06-30
+103,Production,27,4,66,93,Above 37.5 available hours,2014-06-30
+104,Production,27,4,67,94,Above 37.5 available hours,2014-06-30
+105,Production,27,4,65,90,Above 37.5 available hours,2014-06-30
+106,Production,27,4,66,92,Above 37.5 available hours,2014-06-30
+107,Production,27,4,65,91,Above 37.5 available hours,2014-06-30
+108,Production,25,5,58,77,Above 37.5 available hours,2014-06-30
+109,Production,36,5,67,95,Above 37.5 available hours,2014-06-30
+110,Production,34,5,65,90,Above 37.5 available hours,2014-06-30
+111,Production,36,5,66,93,Above 37.5 available hours,2014-06-30
+112,Production,36,5,65,91,Above 37.5 available hours,2014-06-30
+113,Production,26,5,68,96,Above 37.5 available hours,2014-06-30
+114,Production,36,5,68,97,Above 37.5 available hours,2014-06-30
+115,Production,23,5,66,92,Above 37.5 available hours,2014-06-30
+116,Production,40,5,69,98,Above 37.5 available hours,2014-06-30
+117,Production,23,5,69,99,Above 37.5 available hours,2014-06-30
+118,Production,43,5,64,88,Above 37.5 available hours,2014-06-30
+119,Production,25,5,67,94,Above 37.5 available hours,2014-06-30
+120,Production,27,5,64,89,Above 37.5 available hours,2014-06-30
+121,Shipping and Receiving,41,5,66,93,Above 37.5 available hours,2014-06-30
+122,Shipping and Receiving,36,5,68,97,Above 37.5 available hours,2014-06-30
+123,Shipping and Receiving,37,5,67,95,Above 37.5 available hours,2014-06-30
+124,Shipping and Receiving,30,5,69,98,Above 37.5 available hours,2014-06-30
+125,Shipping and Receiving,40,5,67,94,Above 37.5 available hours,2014-06-30
+126,Shipping and Receiving,29,5,68,96,Above 37.5 available hours,2014-06-30
+127,Production,30,5,56,73,Above 37.5 available hours,2014-06-30
+128,Production,33,5,54,68,Above 37.5 available hours,2014-06-30
+129,Production,26,5,54,69,Above 37.5 available hours,2014-06-30
+130,Production,40,5,55,71,Above 37.5 available hours,2014-06-30
+131,Production,23,5,56,72,Above 37.5 available hours,2014-06-30
+132,Production,28,5,53,67,Above 37.5 available hours,2014-06-30
+133,Production,23,5,55,70,Above 37.5 available hours,2014-06-30
+134,Production,29,5,40,40,Above 37.5 available hours,2014-06-30
+135,Production,32,5,24,9,15 to 37.5 available hours,2014-06-30
+136,Production,43,4,22,4,15 to 37.5 available hours,2014-06-30
+137,Production,39,5,24,8,15 to 37.5 available hours,2014-06-30
+138,Production,26,5,23,7,15 to 37.5 available hours,2014-06-30
+139,Production,42,4,20,0,15 to 37.5 available hours,2014-06-30
+140,Production,61,4,22,5,15 to 37.5 available hours,2014-06-30
+141,Production,39,4,20,1,15 to 37.5 available hours,2014-06-30
+142,Production,44,4,21,3,15 to 37.5 available hours,2014-06-30
+143,Production,42,4,21,2,15 to 37.5 available hours,2014-06-30
+144,Production,23,5,23,6,15 to 37.5 available hours,2014-06-30
+145,Production,32,5,54,69,Above 37.5 available hours,2014-06-30
+146,Production,25,5,38,36,Above 37.5 available hours,2014-06-30
+147,Production,38,5,38,37,Above 37.5 available hours,2014-06-30
+148,Production,25,5,39,38,Above 37.5 available hours,2014-06-30
+149,Production,30,5,39,39,Above 37.5 available hours,2014-06-30
+150,Production,31,5,37,35,15 to 37.5 available hours,2014-06-30
+151,Production,36,5,40,40,Above 37.5 available hours,2014-06-30
+152,Production,37,5,40,41,Above 37.5 available hours,2014-06-30
+153,Production,39,5,27,15,15 to 37.5 available hours,2014-06-30
+154,Production,47,5,25,10,15 to 37.5 available hours,2014-06-30
+155,Production,25,5,28,16,15 to 37.5 available hours,2014-06-30
+156,Production,39,5,25,11,15 to 37.5 available hours,2014-06-30
+157,Production,36,5,26,12,15 to 37.5 available hours,2014-06-30
+158,Production,27,5,27,14,15 to 37.5 available hours,2014-06-30
+159,Production,29,5,26,13,15 to 37.5 available hours,2014-06-30
+160,Production,37,5,57,74,Above 37.5 available hours,2014-06-30
+161,Production,29,5,57,74,Above 37.5 available hours,2014-06-30
+162,Production,33,5,57,75,Above 37.5 available hours,2014-06-30
+163,Production,24,5,58,77,Above 37.5 available hours,2014-06-30
+164,Production,25,5,56,73,Above 37.5 available hours,2014-06-30
+165,Production,25,5,58,76,Above 37.5 available hours,2014-06-30
+166,Production,31,5,54,68,Above 37.5 available hours,2014-06-30
+167,Production,34,5,32,25,15 to 37.5 available hours,2014-06-30
+168,Production,29,5,37,34,15 to 37.5 available hours,2014-06-30
+169,Production,31,5,35,31,15 to 37.5 available hours,2014-06-30
+170,Production,37,5,33,26,15 to 37.5 available hours,2014-06-30
+171,Production,32,5,36,32,15 to 37.5 available hours,2014-06-30
+172,Production,27,5,31,22,15 to 37.5 available hours,2014-06-30
+173,Production,26,5,36,33,15 to 37.5 available hours,2014-06-30
+174,Production,28,5,34,28,15 to 37.5 available hours,2014-06-30
+175,Production,25,5,31,23,15 to 37.5 available hours,2014-06-30
+176,Production,28,5,34,29,15 to 37.5 available hours,2014-06-30
+177,Production,32,5,32,24,15 to 37.5 available hours,2014-06-30
+178,Production,32,5,33,27,15 to 37.5 available hours,2014-06-30
+179,Production,39,5,35,30,15 to 37.5 available hours,2014-06-30
+180,Production,29,5,41,42,Above 37.5 available hours,2014-06-30
+181,Production,29,5,30,20,15 to 37.5 available hours,2014-06-30
+182,Production,27,5,30,21,15 to 37.5 available hours,2014-06-30
+183,Production,34,5,28,17,15 to 37.5 available hours,2014-06-30
+184,Production,28,5,29,18,15 to 37.5 available hours,2014-06-30
+185,Production,38,5,29,19,15 to 37.5 available hours,2014-06-30
+186,Production,24,5,57,75,Above 37.5 available hours,2014-06-30
+187,Production,25,5,59,79,Above 37.5 available hours,2014-06-30
+188,Production,28,5,60,80,Above 37.5 available hours,2014-06-30
+189,Production,41,5,60,81,Above 37.5 available hours,2014-06-30
+190,Production,29,5,61,82,Above 37.5 available hours,2014-06-30
+191,Production,26,5,59,78,Above 37.5 available hours,2014-06-30
+192,Production,31,5,55,71,Above 37.5 available hours,2014-06-30
+193,Production,25,5,46,52,Above 37.5 available hours,2014-06-30
+194,Production,25,5,43,47,Above 37.5 available hours,2014-06-30
+195,Production,28,5,49,58,Above 37.5 available hours,2014-06-30
+196,Production,33,5,46,53,Above 37.5 available hours,2014-06-30
+197,Production,36,5,44,48,Above 37.5 available hours,2014-06-30
+198,Production,25,5,44,49,Above 37.5 available hours,2014-06-30
+199,Production,27,5,47,54,Above 37.5 available hours,2014-06-30
+200,Production,26,5,48,56,Above 37.5 available hours,2014-06-30
+201,Production,37,5,47,55,Above 37.5 available hours,2014-06-30
+202,Production,24,5,45,50,Above 37.5 available hours,2014-06-30
+203,Production,33,5,45,51,Above 37.5 available hours,2014-06-30
+204,Production,26,5,48,57,Above 37.5 available hours,2014-06-30
+205,Production,33,5,58,76,Above 37.5 available hours,2014-06-30
+206,Production,51,5,62,84,Above 37.5 available hours,2014-06-30
+207,Production,43,5,62,85,Above 37.5 available hours,2014-06-30
+208,Production,27,5,63,86,Above 37.5 available hours,2014-06-30
+209,Production,23,5,63,87,Above 37.5 available hours,2014-06-30
+210,Production,44,5,61,83,Above 37.5 available hours,2014-06-30
+211,Quality Assurance,36,5,60,80,Above 37.5 available hours,2014-06-30
+212,Quality Assurance,38,5,60,81,Above 37.5 available hours,2014-06-30
+213,Quality Assurance,47,4,62,85,Above 37.5 available hours,2014-06-30
+214,Quality Assurance,25,5,62,84,Above 37.5 available hours,2014-06-30
+215,Quality Assurance,28,5,61,83,Above 37.5 available hours,2014-06-30
+216,Quality Assurance,38,5,61,82,Above 37.5 available hours,2014-06-30
+217,Document Control,38,5,58,77,Above 37.5 available hours,2014-06-30
+218,Document Control,24,5,58,76,Above 37.5 available hours,2014-06-30
+219,Document Control,27,5,59,78,Above 37.5 available hours,2014-06-30
+220,Document Control,38,5,59,79,Above 37.5 available hours,2014-06-30
+221,Document Control,27,5,57,75,Above 37.5 available hours,2014-06-30
+222,Production Control,45,5,42,44,Above 37.5 available hours,2014-06-30
+223,Production Control,26,5,43,46,Above 37.5 available hours,2014-06-30
+224,Production Control,32,5,42,45,Above 37.5 available hours,2014-06-30
+225,Production Control,30,5,43,47,Above 37.5 available hours,2014-06-30
+226,Production Control,29,5,44,48,Above 37.5 available hours,2014-06-30
+227,Facilities and Maintenance,43,4,63,86,Above 37.5 available hours,2014-06-30
+228,Facilities and Maintenance,38,5,66,92,Above 37.5 available hours,2014-06-30
+229,Facilities and Maintenance,43,4,65,90,Above 37.5 available hours,2014-06-30
+230,Facilities and Maintenance,42,4,64,88,Above 37.5 available hours,2014-06-30
+231,Facilities and Maintenance,60,4,65,91,Above 37.5 available hours,2014-06-30
+232,Facilities and Maintenance,43,4,64,89,Above 37.5 available hours,2014-06-30
+233,Facilities and Maintenance,42,4,63,87,Above 37.5 available hours,2014-06-30
+234,Executive,38,5,20,0,15 to 37.5 available hours,2014-06-30
+235,Human Resources,38,5,47,54,Above 37.5 available hours,2014-06-30
+236,Human Resources,38,5,46,53,Above 37.5 available hours,2014-06-30
+237,Human Resources,37,5,46,52,Above 37.5 available hours,2014-06-30
+238,Human Resources,29,5,45,50,Above 37.5 available hours,2014-06-30
+239,Human Resources,29,5,45,51,Above 37.5 available hours,2014-06-30
+240,Human Resources,35,5,44,49,Above 37.5 available hours,2014-06-30
+241,Finance,30,5,48,57,Above 37.5 available hours,2014-06-30
+242,Finance,38,5,50,60,Above 37.5 available hours,2014-06-30
+243,Finance,38,5,50,61,Above 37.5 available hours,2014-06-30
+244,Finance,29,5,51,62,Above 37.5 available hours,2014-06-30
+245,Finance,38,5,49,58,Above 37.5 available hours,2014-06-30
+246,Finance,37,5,51,63,Above 37.5 available hours,2014-06-30
+247,Finance,35,5,52,64,Above 37.5 available hours,2014-06-30
+248,Finance,34,5,49,59,Above 37.5 available hours,2014-06-30
+249,Finance,29,5,47,55,Above 37.5 available hours,2014-06-30
+250,Purchasing,36,3,44,49,Above 37.5 available hours,2014-06-30
+251,Purchasing,29,5,49,59,Above 37.5 available hours,2014-06-30
+252,Purchasing,39,5,50,60,Above 37.5 available hours,2014-06-30
+253,Purchasing,43,4,48,56,Above 37.5 available hours,2014-06-30
+254,Purchasing,43,4,48,57,Above 37.5 available hours,2014-06-30
+255,Purchasing,47,4,46,52,Above 37.5 available hours,2014-06-30
+256,Purchasing,62,4,49,58,Above 37.5 available hours,2014-06-30
+257,Purchasing,41,4,47,54,Above 37.5 available hours,2014-06-30
+258,Purchasing,43,4,46,53,Above 37.5 available hours,2014-06-30
+259,Purchasing,41,4,47,55,Above 37.5 available hours,2014-06-30
+260,Purchasing,36,3,45,50,Above 37.5 available hours,2014-06-30
+261,Purchasing,36,3,45,51,Above 37.5 available hours,2014-06-30
+262,Finance,50,5,48,56,Above 37.5 available hours,2014-06-30
+263,Information Services,38,5,52,65,Above 37.5 available hours,2014-06-30
+264,Information Services,30,5,54,68,Above 37.5 available hours,2014-06-30
+265,Information Services,37,5,55,70,Above 37.5 available hours,2014-06-30
+266,Information Services,34,5,54,69,Above 37.5 available hours,2014-06-30
+267,Information Services,36,5,57,74,Above 37.5 available hours,2014-06-30
+268,Information Services,26,5,56,73,Above 37.5 available hours,2014-06-30
+269,Information Services,27,5,56,72,Above 37.5 available hours,2014-06-30
+270,Information Services,39,5,53,67,Above 37.5 available hours,2014-06-30
+271,Information Services,38,5,53,66,Above 37.5 available hours,2014-06-30
+272,Information Services,29,5,55,71,Above 37.5 available hours,2014-06-30
+273,Sales,37,3,25,10,15 to 37.5 available hours,2014-06-30
+274,Sales,62,3,27,14,15 to 37.5 available hours,2014-06-30
+275,Sales,45,3,39,38,Above 37.5 available hours,2014-06-30
+276,Sales,34,3,33,27,15 to 37.5 available hours,2014-06-30
+277,Sales,51,3,32,24,15 to 37.5 available hours,2014-06-30
+278,Sales,39,3,36,33,15 to 37.5 available hours,2014-06-30
+279,Sales,40,3,34,29,15 to 37.5 available hours,2014-06-30
+280,Sales,39,3,31,22,15 to 37.5 available hours,2014-06-30
+281,Sales,46,3,33,26,15 to 37.5 available hours,2014-06-30
+282,Sales,50,3,35,31,15 to 37.5 available hours,2014-06-30
+283,Sales,40,3,31,23,15 to 37.5 available hours,2014-06-30
+284,Sales,36,1,39,39,Above 37.5 available hours,2014-06-30
+285,Sales,39,1,30,20,15 to 37.5 available hours,2014-06-30
+286,Sales,37,1,38,36,Above 37.5 available hours,2014-06-30
+287,Sales,56,2,30,21,15 to 37.5 available hours,2014-06-30
+288,Sales,38,1,37,35,15 to 37.5 available hours,2014-06-30
+289,Sales,46,2,38,37,Above 37.5 available hours,2014-06-30
+290,Sales,38,2,37,34,15 to 37.5 available hours,2014-06-30

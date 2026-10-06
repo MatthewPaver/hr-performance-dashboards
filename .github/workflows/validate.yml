@@ -1,18 +1,35 @@
-name: Validate public sample
+name: Validate analytics handoff
 
 on:
   push:
+    branches: [main]
   pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
 
+concurrency:
+  group: hr-handoff-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  sample:
+  package:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Check the public handoff package
+        run: node scripts/validate-package.mjs
       - uses: actions/setup-python@v6
         with:
-          python-version: "3.12"
-      - run: python -m unittest discover tests
+          python-version: '3.12'
+      - name: Test synthetic sample schema and semantic transformations
+        run: python -m unittest discover -s tests -v
+      - name: Reproduce pinned public data and check committed output
+        run: |
+          python scripts/rebuild_public_data.py --as-of 2014-06-30
+          git diff --exit-code -- docs/rebuilt
